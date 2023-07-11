@@ -1,46 +1,6 @@
-* {
-    margin: 0;
-    height: 0;
-}
-.main-header {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  .logo {
-    float: left;
-  }
-  
-  .logo img {
-    height: 50px;
-  }
-  
-  .main-menu {
-    float: right;
-  }
-  
-  .main-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .main-menu ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .main-menu ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .user-login {
-    float: right;
-  }
-  
-  .user-login a {
-    text-decoration: none;
-    color: #333;
-  }
-  
+/*
+Theme Name:       myGPT
+Theme URI:        https://github.com/Junior1973/myGPT                 
+Author:           Junior1973
+GitHub Theme URI: https://github.com/Junior1973/myGPT
+*/
