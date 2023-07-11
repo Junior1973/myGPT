@@ -1,0 +1,32 @@
+
+@media (max-width: 1440px) {
+    .container {
+        width: 100%;  
+    }
+}
+
+
+/* @media (max-width: 800px) {
+    .menu {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .menu-button {
+      width: calc(50% - 20px);
+    }
+  } */
+  
+  /* @media (max-width: 600px) {
+    .menu-button {
+      width: calc(33.33% - 20px);
+    }
+  } */
+  
+  /* @media (max-width: 400px) {
+    .menu-button {
+      width: calc(25% - 20px);
+      font-size: 12px;
+    }
+  }
+   */
