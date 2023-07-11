@@ -3,44 +3,69 @@
     height: 0;
 }
 .main-header {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
+  width: 100%; /* Изменяем значение на 100% */
+  max-width: 1460px; /* Добавляем максимальную ширину */
+  height: 200px;
+  display: flex;
+  background-color: #29356b;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+
   
   .logo {
-    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
   }
   
   .logo img {
-    height: 50px;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
   }
   
   .main-menu {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    flex-wrap: wrap;
     float: right;
   }
   
   .main-menu ul {
+    display: flex;
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
   }
   
   .main-menu ul li {
-    display: inline-block;
+    width: 80px;
+    height: 80px;
     margin-right: 10px;
   }
   
   .main-menu ul li a {
     text-decoration: none;
-    color: #333;
+    color: #FFFFFF;
   }
   
   .user-login {
-    float: right;
+    flex: 0 0 auto;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
   }
   
   .user-login a {
     text-decoration: none;
-    color: #333;
+    color: #FFFFFF;
   }
   
