@@ -12,6 +12,11 @@
     width: 1440px;
   }
   
+  div#headerLogo  {order: 1;}
+  div#headerMenu  {order: 2;}
+  div#headerLogin  {order: 3;}
+
+
   .logo {
     width: 80px;
     height: 80px;
@@ -42,6 +47,14 @@
     text-align: center;
   }
   
+  a#menuHome  {order: 1;}
+  a#menuAbout  {order: 2;}
+  a#menuServ  {order: 3;}
+  a#menuPort  {order: 4;}
+  a#menuKont  {order: 5;}
+  a#menuNew  {order: 6;}
+  a#menuFAQ  {order: 7;}
+
   .login {
     display: flex;
     align-items: center;
