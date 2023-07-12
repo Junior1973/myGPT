@@ -7,12 +7,15 @@
 
 @media (max-width: 625px) {
 
-  a#headerLogo  {order: 1;}
-  a#headerMenu  {order: 3;}
-  a#headerLogin  {order: 2;}
+ div#headerLogo  {order: 1;}
+ div#headerMenu  {order: 3;}
+ div#headerLogin  {order: 2;}
 
 .container {
-    height: 300px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 350px;
   }
 
 }
