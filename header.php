@@ -1,3 +1,4 @@
+
 <?php wp_head(); ?>
 
 </head>
@@ -7,7 +8,7 @@
  <header>
      <div class="container">
         <div class="logo" id="headerLogo">
-          <img src="img/logo.png" alt="Logo">
+           <?php the_custom_logo();?>
         </div>
           <div class="menu" id="headerMenu">
             <a href="#" class="menu-button" id="menuHome">Главная</a>
