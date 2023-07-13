@@ -15,8 +15,11 @@ Template Name: home
 
 <?php get_header(); ?>
 
-<div>
-    <h1>Главная</h1>
-</div>
+<section>
+  <div class="headHome">
+      <h1>Главная</h1>
+  </div>
+
+</section>
 
 <?php get_footer(); ?>
