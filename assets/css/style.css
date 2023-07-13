@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -99,4 +106,19 @@
 }
 .headHome {
     color: #e71212;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #280769;
+  width: 1440px;
+  height: 50px; /* задаем высоту футера */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer h1 {
+  color: #f0e8e800;
 }

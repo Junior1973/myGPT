@@ -3,7 +3,7 @@
 
 </head>
 
-<body>
+<body class="body">
 
  <header>
      <div class="container">
