@@ -15,8 +15,8 @@ Template Name: home
 
 <?php get_header(); ?>
 
-<section>
-  <div class="headHome">
+<section class="containerS">
+    <div class="headHome">
       <h1>Главная</h1>
   </div>
 
