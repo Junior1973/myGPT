@@ -1,0 +1,22 @@
+
+@media (max-width: 1440px) {
+    .container {
+        width: 100%;  
+    }
+}
+
+@media (max-width: 625px) {
+
+ div#headerLogo  {order: 1;}
+ div#headerMenu  {order: 3;}
+ div#headerLogin  {order: 2;}
+
+.container {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: stretch;
+  height: 350px;
+  }
+
+}
+
