@@ -1,11 +1,13 @@
 
 @media (max-width: 1440px) {
-  .container, .containerS, .footer {
-    width: 100%;
+  .container, 
+  .containerS, 
+  .footer {
+    width: 100vmax;
   }
 }
   
-
+git checkout
 
 @media (max-width: 625px) {
 
