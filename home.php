@@ -18,7 +18,7 @@ Template Name: home
 <section class="containerS">
     <div class="headHome">
       <h1>Главная</h1>
-  </div>
+     </div>
 
 </section>
 
