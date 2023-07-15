@@ -17,7 +17,7 @@ Template Name: home
 
 <section class="containerS">
     <div class="headHome">
-      <h1>Главная</h1>
+      <h1><?php the_field('title'); ?></h1>
      </div>
 
 </section>
