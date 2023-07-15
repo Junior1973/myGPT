@@ -19,7 +19,7 @@ Template Name: home
     <div class="headHome">
       <h1><?php the_field('title'); ?></h1>
      </div>
-
+<div><h2><?php the_field('subtitle'); ?> </h2></div>
 </section>
 
 <?php get_footer(); ?>

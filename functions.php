@@ -7,8 +7,8 @@ add_action( 'wp_enqueue_scripts', 'enqueue_custom_style' );
 function enqueue_custom_style() {
 
 	
-		wp_enqueue_style( 'home-css', get_template_directory_uri() . '/assets/css/style.css' );
-		wp_enqueue_style( 'header-media-css', get_template_directory_uri() . '/assets/css/headerMedia.css' );
+		wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/style.css' );
+		wp_enqueue_style( 'headerMedia', get_template_directory_uri() . '/assets/css/headerMedia.css' );
 
 }
 
